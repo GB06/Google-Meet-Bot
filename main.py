@@ -11,8 +11,6 @@ time = str(input("Time: ")) # hr:min      24hr format
 def join():
     webbrowser.open_new_tab('https://' + link)
     sleep(7)
-    #auto.hotkey('ctrl', 'd')
-    #auto.hotkey('ctrl', 'e')
     auto.hotkey('command', 'd')
     auto.hotkey('command', 'e')
     auto.click(x, y) # change "x" & "y"
